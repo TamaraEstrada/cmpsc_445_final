@@ -1,4 +1,5 @@
 Content-based Recipe Recommendation System
+
 Taazkir Nasir and Tamara Estrada
 
 
@@ -68,6 +69,7 @@ b.	The name, ingredients, description, and directions will be displayed.
 VII. Results
 
 <img width="519" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/952d2dac-eacb-4951-b0ef-1539f96eba9f">
+
 
 VIII.	Discussion and Conclusions
 Through the output, users can see that the dataset was successfully loaded. Then the user will be prompted to input their preferred ingredients, in this case, “chicken” and “potatoes” are typed and a tag “healthy”. These ingredients will be used to create a personalized recipe search. The recommendations are then outputted based on the user’s preferences, the system will generate a list of recipes best aligned with the user’s specified ingredients and tags. The top recommendations for this search included dishes like "Healthy Chicken and Potato" and "Scalloped Chicken and Potatoes”. The user then selects a from the list of recommended recipes for further detailed information. 
