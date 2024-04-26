@@ -15,7 +15,7 @@ III.	Installation and Usage Instructions
 
 To use and run this recipe recommendation system, all you do is clone the GitHub repository and open the code on Google Colab. This dataset is too big to be included in the repository, users will need to download it from Kaggle and upload it to their Colab environment. Users should make sure that the file path in the code correctly represents the location where the dataset is in Colab. Once the dataset is successfully loaded into their environment, the user can run the code in the cells to load the data, extract the features, input their dietary preferences, generate recommendations, and view recipe details.
 
-IV.	Discussing Dataset
+IV.	###Discussing Dataset
 
 The original dataset contains many features that give essential context to each recipe entry. It contains the name, duration, nutrition details, cooking steps, description, ingredients list, and the number of ingredients required. ‘name’ is the name of the recipe, and each entry is unique. 
 
