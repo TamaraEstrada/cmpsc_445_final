@@ -3,7 +3,7 @@ Content-based Recipe Recommendation System
 Taazkir Nasir and Tamara Estrada
 
 
-I.	Our Goal
+###Our Goal
 	
 The goal of this project is to create a personalized recipe recommendation system that suggests personalized meal plans based on users’ dietary preferences. In today’s online world, there are many diet resources online, which often leaves users to be confused as they sift through numerous amounts of information to find recipes that align with their dietary restrictions, preferences, and ingredient availability. The purpose of this project is to make this process more efficient by using machine learning techniques to offer the user personalized recipe suggestions. Through this program, the users can input their preferred ingredients and tags, which will allow the algorithm to inspect their input and compare them with a database of recipes. We implemented techniques like TF-IDF vectorization and cosine similarity, with this the program can efficiently determine and recommend recipes that match the user’s input as closely as possible. After the algorithm determines the recommended recipes, the output will also include detailed recipe information, including ingredients, descriptions, and directions. 
 
@@ -15,7 +15,7 @@ III.	Installation and Usage Instructions
 
 To use and run this recipe recommendation system, all you do is clone the GitHub repository and open the code on Google Colab. This dataset is too big to be included in the repository, users will need to download it from Kaggle and upload it to their Colab environment. Users should make sure that the file path in the code correctly represents the location where the dataset is in Colab. Once the dataset is successfully loaded into their environment, the user can run the code in the cells to load the data, extract the features, input their dietary preferences, generate recommendations, and view recipe details.
 
-IV.	###Discussing Dataset
+IV.	Discussing Dataset
 
 The original dataset contains many features that give essential context to each recipe entry. It contains the name, duration, nutrition details, cooking steps, description, ingredients list, and the number of ingredients required. ‘name’ is the name of the recipe, and each entry is unique. 
 
