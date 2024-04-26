@@ -33,6 +33,7 @@ Columns provided by the original dataset:
 <img width="666" alt="Screenshot 2024-04-26 at 3 22 59 PM" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/6f2424a1-39cf-47ce-a5f0-42b6cafeddc7">
 
 ### List of Functionalities and Test Results
+
 1.	Data Loading:
 a.	load_data(): function successfully loads the dataset from a CSV file found from Kaggle.
 <img width="442" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/f9a9199c-dd6b-472c-9bf2-5e5f06816ffc">
@@ -53,7 +54,6 @@ c.	Also makes sure that the TF-IDF vectorizer ensures robustness and captures th
 a.	CLI prompts the user to input their preferred ingredients and tags.
 b.	Is tested with numerous user inputs, making sure to use a wide range of combinations of ingredients and tags.
 c.	Checked that the input was retrieved successfully and correctly processed for further processing.
-
 <img width="453" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/50559072-fc81-46b9-8808-9f5a042b9bdd">
 
 5.	Recommendation Generation:
