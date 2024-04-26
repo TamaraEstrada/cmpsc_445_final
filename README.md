@@ -35,43 +35,43 @@ Columns provided by the original dataset:
 ### List of Functionalities and Test Results
 
 1.	Data Loading:
-a.	load_data(): function successfully loads the dataset from a CSV file found from Kaggle.
+	a.	load_data(): function successfully loads the dataset from a CSV file found from Kaggle.
 
-b.	It handles any cases where the file is not found in the project structure or any other error and deals with those errors accordingly.
+	b.	It handles any cases where the file is not found in the project structure or any other error and deals with those errors accordingly.
 <img width="442" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/f9a9199c-dd6b-472c-9bf2-5e5f06816ffc">
 
-3.	Data Preprocessing:
-a.	Cleaning and formatting datasets to ensure consistency.
+2.	Data Preprocessing:
+	a.	Cleaning and formatting datasets to ensure consistency.
 
-b.	It is tested with various data inconsistencies like missing values, mixed data types, and formalities in preprocessing or formatting.
+	b.	It is tested with various data inconsistencies like missing values, mixed data types, and formalities in preprocessing or formatting.
 <img width="508" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/35912e4d-aec5-47ee-b985-a118062004c8">
 
-5.	Feature Extraction:
-a.	Will extract needed attributes from the dataset and vectorize them using TF-IDF. Extracts features like (tags, descriptions, ingredients).
+3.	Feature Extraction:
+	a.	Will extract needed attributes from the dataset and vectorize them using TF-IDF. Extracts features like (tags, descriptions, ingredients).
 
-b.	It is tested with different textual data to make sure that the feature extraction and vectorization were performed accurately.
+	b.	It is tested with different textual data to make sure that the feature extraction and vectorization were performed accurately.
 
-c.	Also makes sure that the TF-IDF vectorizer ensures robustness and captures the vocabulary and weights.
+	c.	Also makes sure that the TF-IDF vectorizer ensures robustness and captures the vocabulary and weights.
 <img width="499" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/67e157ab-edac-4165-b64a-4beb89e6f934">
 
-7.	User Input Collection:
-a.	CLI prompts the user to input their preferred ingredients and tags.
+4.	User Input Collection:
+	a.	CLI prompts the user to input their preferred ingredients and tags.
 
-b.	Is tested with numerous user inputs, making sure to use a wide range of combinations of ingredients and tags.
+	b.	Is tested with numerous user inputs, making sure to use a wide range of combinations of ingredients and tags.
 
-c.	Checked that the input was retrieved successfully and correctly processed for further processing.
+	c.	Checked that the input was retrieved successfully and correctly processed for further processing.
 <img width="453" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/50559072-fc81-46b9-8808-9f5a042b9bdd">
 
-9.	Recommendation Generation:
-a.	Calculates the cosine similarity between the user input vector and the recipe features matrix to differentiate and identify recipes.
+5.	Recommendation Generation:
+	a.	Calculates the cosine similarity between the user input vector and the recipe features matrix to differentiate and identify recipes.
 
-b.	Selects the top N recipes that are most in common based on the input provided. Is manually tested with different user parameters. 
+	b.	Selects the top N recipes that are most in common based on the input provided. Is manually tested with different user parameters. 
 <img width="468" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/7be08df2-cb37-463a-b592-302e53f49dfb">
 
-11.	Recipe Display:
-a.	The user is prompted to pick from the list of recommended recipes to access more detailed information about a specific recipe.
+6.	Recipe Display:
+	a.	The user is prompted to pick from the list of recommended recipes to access more detailed information about a specific recipe.
 
-b.	The name, ingredients, description, and directions will be displayed.
+	b.	The name, ingredients, description, and directions will be displayed.
 <img width="469" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/ccc65d3c-7494-40d8-a4fb-9c017251bd18">
 
 ### Results
