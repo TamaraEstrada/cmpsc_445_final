@@ -66,6 +66,7 @@ b.	The name, ingredients, description, and directions will be displayed.
 <img width="469" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/ccc65d3c-7494-40d8-a4fb-9c017251bd18">
 
 VII. Results
+
 <img width="519" alt="image" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/952d2dac-eacb-4951-b0ef-1539f96eba9f">
 
 VIII.	Discussion and Conclusions
