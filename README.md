@@ -30,7 +30,7 @@ Columns provided by the original dataset:
 
 V.	Code Structure
 
-
+<img width="666" alt="Screenshot 2024-04-26 at 3 22 59 PM" src="https://github.com/TamaraEstrada/cmpsc_445_final/assets/105894181/6f2424a1-39cf-47ce-a5f0-42b6cafeddc7">
 
 VI.	List of Functionalities and Test Results
 1.	Data Loading:
