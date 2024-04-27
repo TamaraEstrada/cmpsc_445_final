@@ -13,7 +13,21 @@ This project is meaningful because it addresses the dietary needs of individuals
 
 ### Installation and Usage Instructions
 
-To use and run this recipe recommendation system, all you do is clone the GitHub repository and open the code on Google Colab. This dataset is too big to be included in the repository, users will need to download it from Kaggle and upload it to their Colab environment. Users should make sure that the file path in the code correctly represents the location where the dataset is in Colab. Once the dataset is successfully loaded into their environment, the user can run the code in the cells to load the data, extract the features, input their dietary preferences, generate recommendations, and view recipe details.
+1. Clone the GitHub repository containing our code.
+
+2. Open our code on Google Colab.
+   
+3. The CSV dataset is too large to be included in the repository, users have to download it from Kaggle.
+
+4. After downloading from Kaggle, users should upload the dataset to their Colab environment file structure.
+
+5. Choose the CSV file named 'RAW_recipes.csv'.
+
+6. Ensure that the file path in the code accurately reflects the dataset's location in Colab.
+
+7. Once the dataset is successfully loaded into the environment, users can execute the code in the cells.
+
+8. The code will load the data, extract the features, prompt users to input their dietary preferences, generate recommendations, and display recipe details.
 
 ### Discussing Dataset
 
