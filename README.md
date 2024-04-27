@@ -92,8 +92,7 @@ Three main course learnings were applied in this project. The first is data prep
 
 ### Dataset Used
 
-https://www.kaggle.com/datasets/hugodarwood/epirecipes/code
-
+https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions
 
 
 
