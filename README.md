@@ -1,6 +1,6 @@
 Content-based Recipe Recommendation System
 
-Taazkir Nasir and Tamara Estrada
+Tamara Estrada
 
 
 ### Our Goal
